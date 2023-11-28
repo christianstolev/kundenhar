@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
+  
+html {
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Poppins;
+}
+header {
+    padding: 0;
+    position: sticky; top: 0;
+    height: 100px;
+    background-color: #3b7348;
+}
+
+#wave {
+    position: absolute;
+    top: 0;
+    z-index: 0 !important;
+}
+
+.title {
+    position: absolute;
+    z-index: 2 !important;
+    top: -15px;
+    left: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+.sub-title {
+    position: absolute;
+    z-index: 2 !important;
+    top: 25px;
+    left: 10px;
+    color: white;
+}
+
+
+div ul {
+    list-style-type: none;
+    position: absolute;
+    z-index: 2 !important;
+    top: 55px;
+    left: -30px;
+}
+div ul li {
+    display: inline;
+}
+div ul li img {
+    height: 20px;
+    border-radius: 20px;
+}
+
+nav {
+    list-style-type: none;
+    position: relative;
+    float: right;
+    right: 20px;
+    font-weight: 800;
+    color: white;
+    font-size: 25px;
+}
+nav ul {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav ul li {
+    display: inline-block;
+    text-align: right;
+    
+    margin-left: 10px;
+}
+
+li a:link {
+    color: white;
+}
+
+/* visited link */
+li a:visited {
+    color: white;
+}
+
+/* mouse over link */
+li a:hover {
+    color: #3b7348;
+}
+
+/* selected link */
+li a:active {
+    color: #d4d4d4;
+}
+
+.stroke-h1 {
+    text-align: center;
+    color: white;
+    text-shadow: rgb(25, 31, 27) 2px 0px 0px, rgb(14, 55, 24) 1.75517px 0.958851px 0px, rgb(14, 55, 24) 1.0806px 1.68294px 0px, rgb(14, 55, 24) 0.141474px 1.99499px 0px, rgb(14, 55, 24) -0.832294px 1.81859px 0px, rgb(14, 55, 24) -1.60229px 1.19694px 0px, rgb(14, 55, 24) -1.97998px 0.28224px 0px, rgb(14, 55, 24) -1.87291px -0.701566px 0px, rgb(14, 55, 24) -1.30729px -1.5136px 0px, rgb(14, 55, 24) -0.421592px -1.95506px 0px, rgb(14, 55, 24) 0.567324px -1.91785px 0px, rgb(14, 55, 24) 1.41734px -1.41108px 0px, rgb(14, 55, 24) 1.92034px -0.558831px 0px;
+}
+
+.bold-h3 {
+    text-align: center;
+    color: rgb(44, 63, 48);
+    font-weight: 900;
+    position: relative;
+    top: -30px;
+}
