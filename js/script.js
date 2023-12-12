@@ -20,3 +20,4 @@ const observer = new IntersectionObserver(entries => {
     });
 });
 observer.observe(document.querySelector('.products'));
+observer.observe(document.querySelector('.products2'));
